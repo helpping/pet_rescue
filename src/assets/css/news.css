@@ -1,0 +1,55 @@
+/************************carousel开始**************************/
+body{
+  background: #f1f1f1;
+}
+
+#news-container{
+  width: 100%;
+  padding-bottom: 0.2rem;
+}
+.news-list{
+  height: 1.62rem;
+  padding: 0.2rem 0.2rem;
+}
+.news-list{
+
+}
+.news-img{
+  float: left;
+}
+.news-description{
+  float: right;
+}
+.news-img img{
+  width: 1.62rem;
+  height: 1.62rem;
+}
+
+.news-description{
+  width: 4.32rem;
+  height: 1.6rem;
+  border-bottom: 0.02rem solid #d3d3d3;
+}
+.news-description h6, .news-description span, .news-description p{
+  width: 3.88rem;
+  margin-left: 0.44rem;
+}
+.news-description h6{
+  margin-bottom: 0.18rem;
+  font-size: 0.28rem;
+  color: #022222;
+}
+.news-description span{
+  font-size: 0.22rem;
+  color: #555555;
+}
+.news-description p{
+  margin-top: 0.2rem;
+  font-size: 0.24rem;
+  color: #022222;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/************************carousel结束**************************/

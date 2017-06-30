@@ -1,0 +1,26 @@
+#news-detail{
+  padding: 0.5rem 0.4rem;
+}
+#news-detail img{
+  width: 5.6rem;
+  height: 2.42rem;
+}
+#news-detail h6{
+  width: 100%;
+  margin-top: 0.46rem;
+  height: 0.7rem;
+  color: #111111;
+  font-size: 0.35rem;
+  text-align: center;
+}
+#news-detail p{
+  width: 100%;
+  margin-top: 0.34rem;
+}
+#news-detail div{
+  width: 100%;
+  font-size: 0.2rem;
+  color: #333333;
+  margin-top: 0.5rem;
+  text-align: right;
+}

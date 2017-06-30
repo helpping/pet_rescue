@@ -1,0 +1,112 @@
+#mask{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000000;
+  opacity: 0.4;
+}
+
+#user-container{
+  width: 5rem;
+  position: fixed;
+  left: 50%;
+  top: 1rem;
+  transform: translate(-50%, 0);
+}
+#user-close{
+  width: 0.3rem;
+  height: 0.3rem;
+  background: url("../img/user/cd-icon-close.svg") no-repeat center;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#user-box{
+  margin-top: 0.4rem;
+  /*height: 3rem;*/
+  background: #ffffff;
+  border-radius: 0.05rem;
+  overflow: hidden;
+}
+.user-tab div{
+  width: 50%;
+  height: 0.7rem;
+  float: left;
+  text-align: center;
+  line-height: 0.7rem;
+  background: #d2d8d8;
+  color: #809191;
+}
+.user-content{
+  margin-top: 0.7rem;
+  padding: 0.2rem;
+}
+.user-tab div.selected{
+  background: #ffffff;
+  color: #505260;
+}
+.register p, .login p{
+  width: 100%;
+  height: 0.8rem;
+  position: relative;
+}
+
+.register p input, .login p input{
+  width: 100%;
+  height: 0.5rem;
+  outline: none;
+  border: 0.01rem solid #d2d8d8;
+  border-radius: 0.05rem;
+  text-indent: 0.4rem;
+  font-size: 0.14rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.register p img, .login p img{
+  width: 0.2rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 0.15rem;
+  top: 0.15rem;
+}
+.register p:last-child, .login p:last-child{
+  margin-top: 0.2rem;
+}
+.register p span, .login p span{
+  width: 100%;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  text-indent: 0.1rem;
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  font-size: 0.14rem;
+  color: #f00;
+}
+.register p input[type="submit"],.login p input[type="submit"]{
+  text-indent: 0;
+  background: #7cc4b8;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

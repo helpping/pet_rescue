@@ -1,0 +1,211 @@
+/*********************header开始*************************/
+#header{
+  width: 100%;
+  height: 2.5rem;
+  background: url("../img/index-bg.jpg") no-repeat;
+  background-size: cover;
+
+}
+.header-content{
+  width: 100%;
+  height: 0.6rem;
+}
+.address, .logo, .header-img{
+  float: left;
+  width: 33.33%;
+  height: 100%;
+}
+.address{
+  line-height: 0.6rem;
+}
+.address span{
+  font-size: 0.26rem;
+  color: #ffffff;
+  margin-left: 0.2rem;
+}
+.address img{
+  width: 0.2rem;
+  height: 0.2rem;
+}
+.logo{
+  text-align: center;
+}
+.logo img{
+  width: 0.54rem;
+  height: 0.46rem;
+  margin-top: 0.07rem;
+}
+.header-img img{
+  width: 0.38rem;
+  height: 0.38rem;
+  margin-top: 0.11rem;
+  float: right;
+  margin-right: 0.2rem;
+}
+
+/*********************header结束*************************/
+
+/*********************banner开始*************************/
+#banner{
+  height: 2.62rem;
+}
+#banner .banner-section{
+  height: 2.5rem;
+}
+#banner .banner-square{
+  height: 0.12rem;
+  background: #ececec;
+}
+.banner-section a{
+  width: 15%;
+  margin: 0.16rem 5%;
+  height: 0.8rem;
+  float: left;
+  text-align: center;
+}
+.banner-section img{
+  width: 80px;
+  height: 80px;
+}
+.banner-section span{
+  width: 100%;
+  height: 0.2rem;
+  display: block;
+  font-size: 0.2rem;
+  color: #787878;
+  margin-top: 0.1rem;
+}
+/*********************banner结束*************************/
+
+/*********************content开始*************************/
+#content{
+
+}
+#tab-control{
+  height: 0.6rem;
+  margin-left: 0.2rem;
+  margin-top: 0.16rem;
+}
+#tab-control div{
+  float: left;
+  color: #787878;
+  padding: 0 0.1rem;
+  font-size: 0.3rem;
+}
+#tab-control div.active{
+  color: #6db6aa;
+}
+#tab-control div:nth-child(1){
+  border-right: 0.04rem solid #787878;
+}
+#tab-control div:nth-child(2){
+  border-right: 0.04rem solid #787878;
+}
+#tab-content{
+  /*height: 8rem;*/
+}
+.news-detail{
+  height: 1.98rem;
+  border-bottom: 2px solid #ececec;
+}
+.tab-content-container{
+  padding: 0 0.2rem;
+}
+.news-image, .news-content{
+  float: left;
+}
+.news-image img{
+  width: 100%;
+  height: 100%;
+}
+.news-content{
+  width: 4rem;
+  margin-left: 0.4rem;
+}
+.news-image{
+  margin-top: 0.28rem;
+}
+.news-image img{
+  width: 234px;
+  height: 130px;
+}
+.news-content h6{
+  font-size: 0.26rem;
+  color: #666666;
+  margin-top: 0.28rem;
+}
+.news-content p{
+  margin-top: 0.12rem;
+  font-size: 0.2rem;
+  color: #666666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.vol-detail{
+  height: 1rem;
+  border-bottom: 2px solid #ececec;
+}
+.vol-content{
+
+}
+.vol-content h6{
+  font-size: 0.26rem;
+  color: #666666;
+  margin-top: 0.28rem;
+}
+.vol-content p{
+  margin-top: 0.12rem;
+  font-size: 0.2rem;
+  color: #666666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/*********************content结束*************************/
+
+/*********************footer开始*************************/
+#footer{
+  height: 0.9rem;
+  background: #ececec;
+  margin-top: -2px;
+}
+
+.city{
+  float: left;
+  margin-top: 0.3rem;
+}
+.login-register{
+  float: right;
+  margin-top: 0.3rem;
+}
+.city span{
+  float: left;
+  width: 0.6rem;
+  height: 0.3rem;
+  margin-right: 0.2rem;
+  color: #666666;
+  font-size: 0.16rem;
+  text-align: center;
+  line-height: 0.3rem;
+}
+.city span:nth-child(1){
+  text-align: right;
+}
+.city span:nth-child(2){
+  border: 1px solid #b6b6b6;
+  border-radius: 0.05rem;
+}
+.login-register span{
+  width: 0.6rem;
+  height: 0.3rem;
+  float: left;
+  margin-right: 0.2rem;
+  color: #666666;
+  font-size: 0.16rem;
+  text-align: center;
+  line-height: 0.3rem;
+  border: 1px solid #b6b6b6;
+  border-radius: 0.05rem;
+}
+/*********************footer结束*************************/

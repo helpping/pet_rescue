@@ -1,0 +1,129 @@
+.adopt-info-title{
+  width: 100%;
+  height: 0.6rem;
+  background: #ececec;
+  color:#787878;
+  font-size: 0.22rem;
+  line-height: 0.6rem;
+}
+.adopt-info-title span{
+  margin-left: 0.2rem;
+}
+.adopt-info-content{
+  padding: 0 0.35rem;
+}
+.adopt-info-input{
+  width: 100%;
+  height: 0.4rem;
+  margin-top: 0.15rem;
+  line-height: 0.4rem;
+}
+.adopt-info-input span{
+  float: left;
+  font-size: 0.26rem;
+  color: #666666;
+}
+.adopt-info-input input,.adopt-info-input select{
+  float: right;
+  width: 4.5rem;
+  height: 0.38rem;
+  border: 0.01rem solid #a1a1a1;
+  border-radius: 0.05rem;
+  outline: none;
+  font-size: 0.22rem;
+  color: #949292;
+  text-indent: 0.1rem;
+}
+.adopt-info-input select{
+  text-indent: 1.6rem;
+}
+
+.adopt-info-input select option{
+  width: 4.5rem;
+  height: 0.38rem;
+  border: 0.01rem solid #a1a1a1;
+  outline: none;
+  border-radius: 0.05rem;
+  font-size: 0.16rem;
+  color: #949292;
+  text-indent: 1.6rem;
+}
+.adopt-info-title-two{
+  width: 100%;
+  font-size: 0.26rem;
+  color: #666666;
+  text-align: center;
+  margin-top: 0.16rem;
+}
+.upload-img{
+  width: 100%;
+  height: 1.48rem;
+  margin-top: 0.5rem;
+}
+.upload-img-front,.upload-img-behind{
+  width: 2.34rem;
+  height: 1.46rem;
+  position: relative;
+  border: 0.01rem dashed #a7a7a7;
+}
+.upload-img-front{
+  float: left;
+}
+.upload-img-behind{
+  float: right;
+}
+.upload-img-front{
+  margin-left: 0.16rem;
+}
+.upload-img-behind{
+  margin-right: 0.16rem;
+}
+.upload-img-front img,.upload-img-behind img{
+  width: 2.32rem;
+  height: 1.44rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.upload-img-front input,.upload-img-behind input{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.upload-img-front div,.upload-img-behind div{
+  width: 0.8rem;
+  height: 0.8rem;
+  background: url("../img/close.png") no-repeat center;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.submit{
+  width: 1.98rem;
+  height: 0.58rem;
+  border: 0.01rem solid #666666;
+  background: #7cc4b8;
+  text-align: center;
+  line-height: 0.58rem;
+  font-size: 0.26rem;
+  color: #ffffff;
+  border-radius: 0.1rem;
+  margin: 0 auto;
+  margin-top: 0.8rem;
+  margin-bottom: 0.18rem;
+}
+
+
+
+
+
+
+
+

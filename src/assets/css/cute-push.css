@@ -1,0 +1,105 @@
+#form{
+  height: 4rem;
+  padding: 0.28rem 0.2rem;
+}
+#form div{
+  float: left;
+}
+.push-img, .push-content{
+  margin: 0 0.15rem;
+}
+.push-img{
+  width: 2.08rem;
+  height: 1.48rem;
+  border: 0.01rem dashed #a7a7a7;
+  position: relative;
+}
+.push-img img,.push-img input{
+  width: 2.06rem;
+  height: 1.46rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.push-img input{
+  outline: none;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.push-img div{
+  width: 0.8rem;
+  height: 0.8rem;
+  background: url("../img/close.png") no-repeat center;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.part{
+  width: 0.04rem;
+  height: 1.48rem;
+  background: #a1a1a1;
+}
+.push-content{
+  width: 3.24rem;
+  height: 1.48rem;
+}
+.push-content textarea{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: 1px solid #a1a1a1;
+  border-radius: 0.05rem;
+  text-indent: 0.1rem;
+  font-size: 0.16rem;
+}
+.push-kind{
+  width: 100%;
+  height: 0.6rem;
+  margin: 0.2rem 0;
+}
+.push-kind div{
+  width: 16.66%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  line-height: 0.6rem;
+  font-size: 0.26rem;
+}
+.push-kind div:first-child{
+  color: #666666;
+}
+.push-kind div:not(:first-child) span{
+  color: #7cc4b8;
+}
+.push-kind input{
+  width: 0.2rem;
+  height: 0.2rem;
+}
+.submit{
+  width: 100%;
+  height: 0.6rem;
+  margin-top: 0.2rem;
+}
+.submit div{
+  width: 1.98rem;
+  height: 0.58rem;
+  margin-left: 2.07rem;
+  text-align: center;
+  line-height: 0.58rem;
+  background: #7cc4b8;
+  outline: none;
+  border: 1px solid #666666;
+  color: #ffffff;
+  font-size: 0.26rem;
+  border-radius: 0.06rem;
+}
+
+
+
+
+
+
